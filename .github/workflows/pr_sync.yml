@@ -22,7 +22,7 @@ jobs:
         id: app_token
         uses: tibdex/github-app-token@v2
         with:
-          app_id: ${{ secrets.APP_ID }}
+          app_id: 2310627
           private_key: ${{ secrets.APP_PRIVATE_KEY }}
 
       - name: Configure git committer
